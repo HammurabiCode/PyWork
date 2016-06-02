@@ -5,7 +5,7 @@ from tri import triangles
 def testMain() :
     print triangles.__doc__
     g = triangles()
-    n = 0;
+    n = 0
     while n < 10 :
         print next(g)
         n += 1
