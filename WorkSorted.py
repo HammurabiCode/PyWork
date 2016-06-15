@@ -18,4 +18,4 @@ if __name__ == '__main__' :
     print sorted(strL)
     print sorted(numL, key = abs, reverse = True)
     print sorted(lRec, key = by_name)
-    print sorted(lRec, key = by_score, reverse = True)
+print sorted(lRec, key = by_score, reverse = True)
